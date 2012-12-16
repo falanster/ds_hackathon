@@ -121,7 +121,7 @@ h2.block-title a:hover {
   font-size: 13px;
 }
 
-.view-header-photo img {
+.view-header-photo {
   background: url (../images/image_background.png) no-repeat;
 }
 
