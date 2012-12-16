@@ -2,13 +2,12 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 body {
-  font-family:georgia, serif;
+  font-family: georgia, serif;
 }
 
 #zone-branding {
   background-image:url(images/header1.jpg);
   height:216px;
- 
 }
 
 #region-menu {
@@ -114,3 +113,17 @@ h2.block-title {
 h2.block-title a:hover {
   text-decoration:underline;
 }
+
+/* Старонка Артыкулы */
+
+
+.view-articles .views-field-field-author,
+.view-articles .views-field-title {
+  font-size: 20px;
+  color: #000000;
+}
+
+.view-articles .views-field-title {
+  font-weight: bold;
+}
+
