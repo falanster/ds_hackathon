@@ -138,6 +138,10 @@ h2.block-title a:hover {
   float: left;
 }
 
+#block-block-1 {
+  width: 425px;
+}
+
 /* Старонка Артыкулы */
 
 .view-articles {
