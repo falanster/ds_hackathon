@@ -11,7 +11,6 @@ body {
 }
 
 #region-menu {
-
   width:960px!important;
   margin:0;
 }
@@ -123,7 +122,7 @@ h2.block-title a:hover {
 }
 
 .view-header-photo img {
-  background: url (../image_background.png) no-repeat;
+  background: url (../images/image_background.png) no-repeat;
 }
 
 /* Старонка Артыкулы */
