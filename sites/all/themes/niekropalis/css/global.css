@@ -6,13 +6,23 @@ body {
 }
 
 #zone-branding {
-  background-image:url(../images/background.jpg);
-  height:216px;
+  background-image: url(../images/background.jpg);
+  height:316px;
+}
+
+#region-branding {
+  background-image: url(../images/headern.png);
+  height: 390px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -100px;
 }
 
 #region-menu {
   width:960px!important;
   margin:0;
+  position: relative;
+  z-index: 100;
 }
 
 h1.site-name a {
@@ -63,7 +73,7 @@ h1.site-name a {
 
 
 #zone-content {
-  background:url(../images/background-4-960.png) repeat-y;
+  background:url(../images/background.png) repeat-y;
 }
 
 
@@ -123,6 +133,7 @@ h2.block-title a:hover {
 
 .view-header-photo {
   background: url (../images/image_background.png) no-repeat;
+  width: 250px;
 }
 
 /* Старонка Артыкулы */
