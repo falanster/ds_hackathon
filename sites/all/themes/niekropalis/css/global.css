@@ -131,9 +131,11 @@ h2.block-title a:hover {
   font-size: 13px;
 }
 
-.view-header-photo {
+.views-field-field-photo {
   background: url (../images/image_background.png) no-repeat;
   width: 250px;
+  background: red;
+  float: left;
 }
 
 /* Старонка Артыкулы */
