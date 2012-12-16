@@ -114,16 +114,42 @@ h2.block-title a:hover {
   text-decoration:underline;
 }
 
+#block-menu-menu-menu-vertical a,
+#block-menu-menu-menu-vertical a:hover,
+#block-menu-menu-menu-vertical a:active {
+  color: #685232;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.view-header-photo img {
+  border: 2px #fff solid;
+}
+
 /* Старонка Артыкулы */
 
+.view-articles {
+  background:#faf2d9;
+  margin-bottom:24px;
+}
 
-.view-articles .views-field-field-author,
-.view-articles .views-field-title {
-  font-size: 20px;
+.view-articles .views-row {
+  
+}
+
+.view-articles .views-field-field-author {
+  font-size: 21px;
   color: #000000;
+  font-style: italic;
 }
 
-.view-articles .views-field-title {
+.view-articles .views-field-title a:link {
   font-weight: bold;
+  font-size: 21px;
+  color: #000000;
+  text-decoration: none;
 }
 
+.view-articles .views-field-title a:hover {
+  text-decoration: underline;
+}
