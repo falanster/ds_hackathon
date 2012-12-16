@@ -131,12 +131,19 @@ h2.block-title a:hover {
   font-size: 13px;
 }
 
+#block-views-header-photo-block {
+  width: 300px;
+  background: url (../images/image_background.png) no-repeat;
+  float: left;
+}
+
+/*
 .views-field-field-photo {
   background: url (../images/image_background.png) no-repeat;
   width: 250px;
-  background: red;
   float: left;
 }
+*/
 
 #block-block-1 {
   width: 425px;
