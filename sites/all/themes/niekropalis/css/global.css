@@ -1,0 +1,116 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  font-family:georgia, serif;
+}
+
+#zone-branding {
+  background-image:url(images/header1.jpg);
+  height:216px;
+ 
+}
+
+#region-menu {
+
+  width:960px!important;
+  margin:0;
+}
+
+h1.site-name a {
+  width:586px;
+  height:260px;
+  text-indent:-99999px;
+  float:left;
+  display:none;
+}
+
+#zone-content {
+  margin-top:0!important;
+  padding-top:24px;
+}
+
+#main-menu {
+  background:#a3793d;
+  display:block;
+  padding:6px;
+  border:1px solid #5c421c;
+  margin-bottom:0!important;
+}
+
+#main-menu a,
+#main-menu a:active,
+#main-menu .active a
+ {
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+#main-menu a:hover {
+  text-decoration:underline;
+}
+
+#main-menu  li {
+  padding:0 32px;
+}
+
+.block-menu li {
+  list-style-image:none!important;
+  list-style-type:none!important;
+  text-align:center;
+  font-size: 16px;
+}
+
+
+#zone-content {
+  background:url(images/background-4-960.png) repeat-y;
+}
+
+
+article {
+  background:#faf2d9;
+  margin-bottom:24px;
+}
+
+#block-system-main article{
+  border:1px solid #5c421c;
+  padding:8px 16px;
+}
+
+h2.node-title a {
+  color:#000;
+  text-decoration:none;
+  font-size: 22px;
+  
+}
+
+h2.node-title {
+  line-height: 32px;
+  }
+
+aside .block {
+  background:#faf2d9;
+  padding:8px;
+}
+
+aside .block a {
+  text-decoration:none;
+  color:#000;
+}
+
+
+h2.block-title {
+  background:#9c6f30;
+  padding:2px auto;
+  text-align:center;
+  width:100%;
+  color:#faf2d9;
+  margin:-8px 0 8px -8px;
+  width:220px;
+}
+
+h2.block-title a:hover {
+  text-decoration:underline;
+}
