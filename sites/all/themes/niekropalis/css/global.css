@@ -180,3 +180,8 @@ h2.block-title a:hover {
   color: #000000;
   font-style: italic;
 }
+
+.view-articles date {
+  font-size: 17px;
+  font-weight: normal;
+}
