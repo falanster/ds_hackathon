@@ -125,7 +125,10 @@ h2.block-title a:hover {
 
 #block-menu-menu-menu-vertical a,
 #block-menu-menu-menu-vertical a:hover,
-#block-menu-menu-menu-vertical a:active {
+#block-menu-menu-menu-vertical a:active,
+#block-menu-menu-menu-baza a,
+#block-menu-menu-menu-baza a:hover,
+#block-menu-menu-menu-baza a:active {
   color: #685232;
   text-transform: uppercase;
   font-size: 13px;
