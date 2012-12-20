@@ -160,12 +160,6 @@ h2.block-title a:hover {
   
 }
 
-.view-articles .views-field-field-author {
-  font-size: 21px;
-  color: #000000;
-  font-style: italic;
-}
-
 .view-articles .views-field-title a:link {
   font-weight: bold;
   font-size: 21px;
@@ -177,3 +171,9 @@ h2.block-title a:hover {
   text-decoration: underline;
 }
 */
+
+.view-articles author {
+  font-size: 21px;
+  color: #000000;
+  font-style: italic;
+}
