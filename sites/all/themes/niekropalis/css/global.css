@@ -79,16 +79,18 @@ h1.site-name a {
   background:url(../images/background.png) repeat-y;
 }
 
-
-article {
+#region-content .region-inner {
   background:#faf2d9;
   margin-bottom:24px;
-}
-
-#block-system-main article{
   border:1px solid #5c421c;
   padding:8px 16px;
 }
+
+/*
+#block-system-main article{
+  border:1px solid #5c421c;
+  padding:8px 16px;
+} */
 
 h2.node-title a {
   color:#000;
