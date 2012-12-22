@@ -144,7 +144,7 @@ h2.block-title a:hover {
 
 */
 .views-field-field-photo {
-  background: url (../images/image_background.png) no-repeat;
+  background: url(../images/image_background.png) no-repeat;
   width: 250px;
   float: left;
 }
