@@ -13,7 +13,7 @@ body {
   height: 218px;
 }
 
-h1.page-title {
+h1#page-title {
   font-size: 23px;
 }
 /*
