@@ -164,8 +164,9 @@ h2.block-title a:hover {
 input[type="text"] {
   color: #685232;
   font-size: 13px;
-  font-weight: bold;
   text-transform: uppercase;
+  width: 180px;
+  height: 30px;
 }
 
 
