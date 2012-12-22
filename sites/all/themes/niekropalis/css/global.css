@@ -161,6 +161,14 @@ h2.block-title a:hover {
   width: 425px;
 }
 
+input[type="text"] {
+  color: #685232;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
 
 /* @end Front page */
 
