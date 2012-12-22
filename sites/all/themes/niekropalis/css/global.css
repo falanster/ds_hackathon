@@ -6,6 +6,8 @@ body {
   background: #aba493;
 }
 
+/* Front page */
+
 #zone-branding {
   background-image: url(../images/header1.jpg);
   height: 218px;
@@ -159,7 +161,10 @@ h2.block-title a:hover {
   width: 425px;
 }
 
-/* Старонка Артыкулы */
+
+/* @end Front page */
+
+/* Articles page */
 /*
 .view-articles {
   background:#faf2d9;
@@ -192,3 +197,5 @@ h2.block-title a:hover {
   font-size: 17px;
   font-weight: normal;
 }
+
+/* @end Articles page */
