@@ -101,9 +101,14 @@ h2.node-title {
   line-height: 32px;
   }
 
+#block-menu-menu-menu-vertical {
+  margin-top: 0px;
+}
+
 aside .block {
   background:#faf2d9;
   padding:8px;
+  margin-top: 40px;
 }
 
 aside .block a {
@@ -169,7 +174,12 @@ input[type="text"] {
   height: 30px;
 }
 
-
+.breadcrumb {
+  color: #000000;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+  
+}
 
 /* @end Front page */
 
