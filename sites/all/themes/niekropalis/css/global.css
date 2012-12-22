@@ -3,20 +3,21 @@
 
 body {
   font-family: georgia, serif;
+  background: #aba493;
 }
 
 #zone-branding {
-  background-image: url(../images/background.jpg);
-  height:316px;
+  background-image: url(../images/header1.jpg);
+  height: 218px;
 }
-
+/*
 #region-branding {
   background-image: url(../images/headern.png);
   height: 390px;
   position: relative;
   z-index: 10;
   margin-bottom: -100px;
-}
+} */
 
 #region-menu {
   width:960px!important;
