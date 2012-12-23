@@ -204,6 +204,13 @@ input[type="text"] {
   text-decoration: underline;
 }
 
+#block-block-2 {
+  position: absolute;
+  z-index: 999;
+  margin: -180px 0 0 250px;
+}
+
+
 /* @end Front page */
 
 /* Articles page */
