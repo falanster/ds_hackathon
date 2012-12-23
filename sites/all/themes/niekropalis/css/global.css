@@ -66,7 +66,6 @@ h1.site-name a {
   text-decoration:underline;
 }
 
-#main-menu a:hover,
 #main-menu a.active {
   padding: 10px 20px;
   background-color: #5f441d;
