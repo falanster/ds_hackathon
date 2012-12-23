@@ -95,6 +95,11 @@ h1.site-name a {
   padding:8px 16px;
 }
 
+.page-naviny .view-news .views-row .field-name-field-photo img {
+  float: right;
+  padding-left: 20px;
+}
+
 /*
 
 article {
