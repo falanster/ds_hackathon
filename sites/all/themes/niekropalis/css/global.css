@@ -201,7 +201,7 @@ h2.block-title a:hover {
   margin-top: 20px;
 }
 
-.views-field-field-photo img {
+.view-header-photo .views-field-field-photo img {
   margin: 13px 0 0 6px;
 }
 
@@ -246,15 +246,6 @@ input[type="text"] {
 /* @end Front page */
 
 /* Articles page */
-/*
-.view-articles {
-  background:#faf2d9;
-  margin-bottom:24px;
-}
-
-.view-articles .views-row {
-  
-}
 
 .view-articles .views-field-title a:link {
   font-weight: bold;
@@ -266,15 +257,14 @@ input[type="text"] {
 .view-articles .views-field-title a:hover {
   text-decoration: underline;
 }
-*/
 
-.view-articles author {
+.view-articles .views-field-field-author {
   font-size: 21px;
   color: #000000;
   font-style: italic;
 }
 
-.view-articles date label {
+.view-articles .views-field-field-date {
   font-size: 17px;
   font-weight: normal;
 }
