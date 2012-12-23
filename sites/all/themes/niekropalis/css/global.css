@@ -86,7 +86,8 @@ h1.site-name a {
   background:url(../images/background.png) repeat-y;
 }
 
-#region-content .region-inner {
+.page-node #region-content .region-inner,
+.page-artykuly .view-articles .views-row {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
