@@ -120,7 +120,8 @@ h2.node-title a {
 
 h2.node-title {
   line-height: 32px;
-  }
+  margin-bottom: 0;
+}
 
 #block-menu-menu-menu-vertical {
   margin-top: 0px;
