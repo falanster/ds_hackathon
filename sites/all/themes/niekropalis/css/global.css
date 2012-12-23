@@ -137,10 +137,6 @@ h2.node-title {
   text-align: center;
 }
 
-#block-menu-menu-menu-vertical {
-  margin-top: 0px;
-}
-
 aside .block {
   background:#faf2d9;
   padding:8px;
@@ -167,15 +163,26 @@ h2.block-title a:hover {
   text-decoration:underline;
 }
 
+#block-menu-menu-menu-vertical {
+  margin-top: 0px;
+}
+
 #block-menu-menu-menu-vertical a,
 #block-menu-menu-menu-vertical a:hover,
-#block-menu-menu-menu-vertical a:active,
+#block-menu-menu-menu-vertical a.active,
 #block-menu-menu-menu-baza a,
 #block-menu-menu-menu-baza a:hover,
-#block-menu-menu-menu-baza a:active {
+#block-menu-menu-menu-baza a.active {
   color: #685232;
   text-transform: uppercase;
   font-size: 13px;
+}
+
+#block-menu-menu-menu-vertical a:hover,
+#block-menu-menu-menu-vertical a.active,
+#block-menu-menu-menu-baza a:hover,
+#block-menu-menu-menu-baza a.active {
+  text-decoration: underline;
 }
 
 /*
