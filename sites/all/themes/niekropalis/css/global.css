@@ -247,8 +247,9 @@ input[type="text"] {
 
 /* Articles page */
 
-.view-articles .views-field-field-photo {
+.view-articles .views-field-field-photo img {
   float: left;
+  padding-right: 20px;
 }
 
 .view-articles .views-field-title a {
