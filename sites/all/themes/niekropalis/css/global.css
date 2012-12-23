@@ -105,6 +105,13 @@ h1.site-name a {
   margin-bottom: 10px;
 }
 
+.page-naviny .view-news .views-row .node-links a {
+  color: #9c6f30;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /*
 
 article {
