@@ -247,6 +247,10 @@ input[type="text"] {
 
 /* Articles page */
 
+.view-articles .views-field-field-photo {
+  float: left;
+}
+
 .view-articles .views-field-title a {
   font-weight: bold;
   font-size: 18px;
