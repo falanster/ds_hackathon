@@ -96,6 +96,10 @@ h1.site-name a {
   padding:8px 16px;
 }
 
+.page-artykuly .view-articles .views-row {
+  min-height: 150px;
+}
+
 .page-naviny .view-news .views-row .field-name-field-photo img {
   float: left;
   padding-right: 20px;
