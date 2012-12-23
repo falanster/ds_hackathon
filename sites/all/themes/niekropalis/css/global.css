@@ -68,6 +68,7 @@ h1.site-name a {
 
 #main-menu a.active {
   text-decoration: underline;
+  background-color: #5f441d;
 }
 
 #main-menu  li {
