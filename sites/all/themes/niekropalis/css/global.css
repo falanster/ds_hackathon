@@ -89,7 +89,8 @@ h1.site-name a {
 
 .page-node #region-content .region-inner,
 .page-artykuly .view-articles .views-row,
-.page-naviny .view-news .views-row {
+.page-naviny .view-news .views-row,
+.page-asoby .view-asoby .views-row {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
