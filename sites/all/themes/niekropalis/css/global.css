@@ -101,7 +101,8 @@ h1.site-name a {
 }
 
 .page-naviny .view-news .views-row .field-name-field-date {
-  float: right;
+  text-align: right;
+  margin-bottom: 10px;
 }
 
 /*
