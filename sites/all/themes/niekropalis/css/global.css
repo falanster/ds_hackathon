@@ -278,4 +278,9 @@ input[type="text"] {
   font-weight: normal;
 }
 
+.view-articles .views-field-field-date span {
+  float: left;
+  padding-right: 10px;
+}
+
 /* @end Articles page */
