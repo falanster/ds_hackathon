@@ -100,6 +100,10 @@ h1.site-name a {
   padding-right: 20px;
 }
 
+.page-naviny .view-news .views-row .field-name-field-date {
+  float: right;
+}
+
 /*
 
 article {
@@ -121,6 +125,7 @@ h2.node-title a {
 h2.node-title {
   line-height: 32px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 #block-menu-menu-menu-vertical {
