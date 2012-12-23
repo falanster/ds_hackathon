@@ -67,7 +67,7 @@ h1.site-name a {
 }
 
 #main-menu a.active {
-  text-decoration: underline;
+  padding: 10px 20px;
   background-color: #5f441d;
 }
 
@@ -220,7 +220,7 @@ input[type="text"] {
 .breadcrumb a:hover,
 .breadcrumb a.active {
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif; 
   text-decoration: none;
 }
