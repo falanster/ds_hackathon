@@ -13,6 +13,8 @@ body {
   height: 218px;
 }
 
+section-footer
+
 h1#page-title {
   font-size: 23px;
 }
@@ -83,8 +85,15 @@ h1.site-name a {
 }
 
 
-#zone-content {
+#zone-content,
+#zone-footer {
   background:url(../images/background.png) repeat-y;
+}
+
+#block-block-3 img {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-node #region-content .region-inner,
