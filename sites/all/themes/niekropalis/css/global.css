@@ -91,12 +91,13 @@ h1.site-name a {
 }
 
 #block-block-3 {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
 #block-block-3 img {
-  width: 500px;
+  width: 600px;
+  margin-bottom: -35px;
 }
 
 .page-node #region-content .region-inner,
