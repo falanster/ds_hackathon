@@ -126,9 +126,13 @@ h1.site-name a {
 }
 
 .page-naviny .view-news .views-row .field-name-field-photo img,
-.page-asoby .view-asoby .views-row .field-name-field-photo img {
+.page-asoby .view-asoby .views-row .views-field-field-photo img {
   float: left;
   padding-right: 20px;
+}
+
+.page-asoby .view-asoby .views-row .views-field-field-photo img {
+  border: black 1px solid;
 }
 
 .page-naviny .view-news .views-row .field-name-field-date {
@@ -215,14 +219,6 @@ h2.block-title a:hover {
   text-decoration: underline;
 }
 
-/*
-#block-views-header-photo-block {
-  width: 300px;
-  background: url (../images/image_background.png) no-repeat;
-  float: left;
-}
-
-*/
 .view-header-photo  .views-field-field-photo {
   background: url(../images/image_background.png) no-repeat;
   width: 250px;
