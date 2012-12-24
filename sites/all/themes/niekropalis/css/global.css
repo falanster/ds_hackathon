@@ -89,6 +89,9 @@ h1.site-name a {
 #zone-footer {
   background:url(../images/background.png) repeat-y;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 0 10px 10px;
 }
 
 #block-block-3 {
@@ -98,7 +101,7 @@ h1.site-name a {
 
 #block-block-3 img {
   width: 600px;
-  margin-bottom: -35px;
+  margin-bottom: -20px;
 }
 
 .page-node #region-content .region-inner,
