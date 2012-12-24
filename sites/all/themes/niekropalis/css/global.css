@@ -11,6 +11,9 @@ body {
 #zone-branding {
   background-image: url(../images/header1.jpg);
   height: 218px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
 }
 
 section-footer
@@ -88,10 +91,9 @@ h1.site-name a {
 #zone-content,
 #zone-footer {
   background:url(../images/background.png) repeat-y;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  padding: 0 10px 10px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
 }
 
 #block-block-3 {
