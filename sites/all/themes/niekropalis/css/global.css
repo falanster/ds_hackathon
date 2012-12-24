@@ -90,10 +90,13 @@ h1.site-name a {
   background:url(../images/background.png) repeat-y;
 }
 
+#block-block-3 {
+  width: 80%
+  margin: 0 auto;
+}
+
 #block-block-3 img {
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .page-node #region-content .region-inner,
