@@ -277,8 +277,8 @@ input[type="text"] {
 
 /* Articles page */
 
-.view-articles .views-field-field-photo img,
-.view-asoby .views-field-field-photo {
+.view-articles .views-field-field-photo img
+/*.view-asoby .views-field-field-photo */{
   float: left;
   padding-right: 20px;
 }
