@@ -69,10 +69,10 @@ function hansel_taxonomy_action_add_term_path_get_crumbs($arguments) {
           if (isset($term_field[$node->language]) || isset($term_field['und'])) {
             $localized_terms = isset($term_field[$node->language]) ? $term_field[$node->language] : $term_field['und'];
             foreach ($localized_terms as $term) {
-              if (!isset($term['taxonomy_term'])) {
+              if (!isset($term['taxonomy_term']) && isset($term['tid'])) {
                 $term['taxonomy_term'] = taxonomy_term_load($term['tid']);
               }
-              if ((empty($arguments['vid'])) || (!empty($arguments['vid']) && $term['taxonomy_term']->vid == $arguments['vid'])) {
+              if (!empty($term['taxonomy_term']) && ((empty($arguments['vid'])) || (!empty($arguments['vid']) && $term['taxonomy_term']->vid == $arguments['vid']))) {
                 $terms[$term['tid']] = $term['taxonomy_term'];
               }
             }
