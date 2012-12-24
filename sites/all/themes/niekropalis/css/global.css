@@ -283,14 +283,16 @@ input[type="text"] {
   padding-right: 20px;
 }
 
-.view-articles .views-field-title a {
+.view-articles .views-field-title a,
+.view-asoby .views-field-title a {
   font-weight: bold;
   font-size: 18px;
   color: #000000;
   text-decoration: none;
 }
 
-.view-articles .views-field-title a:hover {
+.view-articles .views-field-title a:hover,
+.view-asoby .views-field-title a:hover {
   text-decoration: underline;
 }
 
