@@ -52,6 +52,9 @@ h1.site-name a {
 
 #main-menu {
   background:#a3793d;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
   display:block;
   padding:6px;
   border:1px solid #5c421c;
