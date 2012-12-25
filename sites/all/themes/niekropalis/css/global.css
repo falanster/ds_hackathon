@@ -337,6 +337,10 @@ ul.horizontal-tabs-list a {
     text-transform: uppercase;
 }
 
+ul.horizontal-tabs-list a:hover
+ul.horizontal-tabs-list a.active {
+  text-decoration: underline;
+}
 
 .horizontal-tabs ul.horizontal-tabs-list li.selected {
     background-color: #F3ECD8;
