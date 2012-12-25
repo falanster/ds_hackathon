@@ -6,11 +6,6 @@ body {
   background: #dbd3bf;
 }
 
-#region-content a:link, #region-content a:visited {
-    color: #685232;
-
-}
-
 /* Front page */
 
 #zone-branding {
@@ -362,5 +357,11 @@ ul.horizontal-tabs-list a {
     float: left;
 }
 
+#region-content .field-name-field-type a:link, 
+#region-content .field-name-field-type a:visited,
+#region-content .field-name-field-placement-by-taxonomy a:link, 
+#region-content .field-name-field-placement-by-taxonomy a:visited {
+    color: #685232;
+}
 
 /* @end Graves page */
