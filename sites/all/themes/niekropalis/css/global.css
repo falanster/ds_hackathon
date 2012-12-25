@@ -16,10 +16,8 @@ body {
   -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
 }
 
-section-footer
-
 h1#page-title {
-  font-size: 23px !important;
+  font-size: 23px;
 }
 /*
 #region-branding {
