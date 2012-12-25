@@ -368,8 +368,8 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 }
 
 .view-spis-pahavanyh .view-content {
-  width: 500px;
-  margin: 10px auto;
+  width: 450px;
+  margin: 20px auto;
 }
 
 
@@ -391,8 +391,8 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   text-decoration: underline;
 }
 
-.view-spis-pahavanyh .views-field-field-born-year span,
-.view-spis-pahavanyh .views-field-field-die-year span {
+.view-spis-pahavanyh .views-field-field-born-year,
+.view-spis-pahavanyh .views-field-field-die-year {
   text-align: center;
 }
 
