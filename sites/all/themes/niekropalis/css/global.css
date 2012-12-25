@@ -396,6 +396,11 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   text-align: center;
 }
 
+.field-name-field-scheme img {
+  margin: 20px auto;
+}
+
+
 /* @end Graves page */
 
 .pager li.pager-current {
