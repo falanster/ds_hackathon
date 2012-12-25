@@ -251,7 +251,7 @@ input[type="text"] {
 
 .breadcrumb {
   background: url(../images/breadcrumb_line.png) no-repeat;
-  width: 60%;
+  width: 100%;
   margin-left: 26%;
   margin-bottom: 10px;
 }
