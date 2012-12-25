@@ -337,8 +337,7 @@ ul.horizontal-tabs-list a {
     text-transform: uppercase;
 }
 
-.horizontal-tabs ul li a:hover
-.horizontal-tabs ul li a.active {
+ul.horizontal-tabs-list a #active-horizontal-tab {
   text-decoration: underline;
 }
 
@@ -366,6 +365,20 @@ ul.horizontal-tabs-list a {
 #region-content .field-name-field-placement-by-taxonomy a:link, 
 #region-content .field-name-field-placement-by-taxonomy a:visited {
     color: #685232;
+}
+
+.view-spis-pahavanyh .views-field-title,
+.view-spis-pahavanyh .views-field-field-born-year,
+.view-spis-pahavanyh .views-field views-field-field-die-year {
+  background-color: #F3ECD8;
+  margin-right: 10px;
+}
+
+.view-spis-pahavanyh .views-field-title a,
+.view-spis-pahavanyh .views-field-field-born-year a,
+.view-spis-pahavanyh .views-field views-field-field-die-year a {
+  color: #000000;
+  text-decoration: none;
 }
 
 /* @end Graves page */
