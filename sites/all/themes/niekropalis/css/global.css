@@ -369,16 +369,25 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 
 .view-spis-pahavanyh .views-field-title,
 .view-spis-pahavanyh .views-field-field-born-year,
-.view-spis-pahavanyh .views-field views-field-field-die-year {
+.view-spis-pahavanyh .views-field-field-die-year {
   background-color: #F3ECD8;
-  margin-right: 10px;
+  padding: 5px 15px 0 5px;
 }
 
 .view-spis-pahavanyh .views-field-title a,
-.view-spis-pahavanyh .views-field-field-born-year a,
-.view-spis-pahavanyh .views-field views-field-field-die-year a {
+.view-spis-pahavanyh .views-field-field-born-year span,
+.view-spis-pahavanyh .views-field-field-die-year span {
   color: #000000;
   text-decoration: none;
+}
+
+.view-spis-pahavanyh .views-field-title a:hover {
+  text-decoration: underline;
+}
+
+.view-spis-pahavanyh .views-field-field-born-year span,
+.view-spis-pahavanyh .views-field-field-die-year span {
+  text-align: center;
 }
 
 /* @end Graves page */
