@@ -396,8 +396,14 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   text-align: center;
 }
 
-.field-name-field-scheme img {
+.field-name-field-scheme img,
+.field-name-field-position .openlayers-container {
+  width: 600px;
   margin: 20px auto;
+}
+
+.field-name-field-indexation .field-label {
+  float: left;
 }
 
 
