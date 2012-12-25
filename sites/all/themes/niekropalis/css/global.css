@@ -357,5 +357,10 @@ ul.horizontal-tabs-list a {
     text-decoration: underline;
 }
 
+.field-name-field-gallery img {
+    margin: 2px;
+    float: left;
+}
+
 
 /* @end Graves page */
