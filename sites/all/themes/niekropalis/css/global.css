@@ -3,7 +3,7 @@
 
 body {
   font-family: georgia, serif;
-  background: #aba493;
+  background: #dbd3bf;
 }
 
 #region-content a:link, #region-content a:visited {
@@ -16,7 +16,12 @@ body {
 #zone-branding {
   background-image: url(../images/header1.jpg);
   height: 218px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
 }
+
+section-footer
 
 h1#page-title {
   font-size: 23px;
@@ -52,6 +57,9 @@ h1.site-name a {
 
 #main-menu {
   background:#a3793d;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
   display:block;
   padding:6px;
   border:1px solid #5c421c;
@@ -88,30 +96,55 @@ h1.site-name a {
 }
 
 
-#zone-content {
+#zone-content,
+#zone-footer {
   background:url(../images/background.png) repeat-y;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
+}
+
+#block-block-3 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#block-block-3 img {
+  width: 600px;
+  margin-bottom: -20px;
 }
 
 .page-node #region-content .region-inner,
-.page-katalog .view-catalog- .views-row,
-.page-katalog .views-exposed-form,
 .page-artykuly .view-articles .views-row,
 .page-naviny .view-news .views-row,
-.page-asoby .view-asoby .views-row {
+.page-asoby .view-asoby .views-row,
+.page-karta .view-map {
+  background:#faf2d9;
+  margin-bottom:24px;
+  border:1px solid #5c421c;
+  padding:8px 16px;
+  min-height: 150px;
+}
+
+.page-katalog .view-catalog- .views-row,
+.page-katalog .views-exposed-form,
+.page-poshuk .view-alphabet-view-cirill,
+.page-poshuk .views-exposed-form,
+.page-poshuk .node-card {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
   padding:8px 16px;
 }
 
-.page-artykuly .view-articles .views-row {
-  min-height: 150px;
+.page-naviny .view-news .views-row .field-name-field-photo img,
+.page-asoby .view-asoby .views-row .views-field-field-photo img {
+  float: left;
+  margin-right: 20px;
 }
 
-.page-naviny .view-news .views-row .field-name-field-photo img,
-.page-asoby .view-asoby .views-row .field-name-field-photo img {
-  float: left;
-  padding-right: 20px;
+.page-asoby .view-asoby .views-row .views-field-field-photo img {
+  border: black 1px solid;
 }
 
 .page-naviny .view-news .views-row .field-name-field-date {
@@ -198,14 +231,6 @@ h2.block-title a:hover {
   text-decoration: underline;
 }
 
-/*
-#block-views-header-photo-block {
-  width: 300px;
-  background: url (../images/image_background.png) no-repeat;
-  float: left;
-}
-
-*/
 .view-header-photo  .views-field-field-photo {
   background: url(../images/image_background.png) no-repeat;
   width: 250px;
@@ -260,19 +285,22 @@ input[type="text"] {
 
 /* Articles page */
 
-.view-articles .views-field-field-photo img {
+.view-articles .views-field-field-photo img
+/*.view-asoby .views-field-field-photo */{
   float: left;
   padding-right: 20px;
 }
 
-.view-articles .views-field-title a {
+.view-articles .views-field-title a,
+.view-asoby .views-field-title a {
   font-weight: bold;
   font-size: 18px;
   color: #000000;
   text-decoration: none;
 }
 
-.view-articles .views-field-title a:hover {
+.view-articles .views-field-title a:hover,
+.view-asoby .views-field-title a:hover {
   text-decoration: underline;
 }
 
