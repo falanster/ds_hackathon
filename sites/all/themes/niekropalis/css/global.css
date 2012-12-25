@@ -400,7 +400,7 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 
 .pager li.pager-current {
   color: #000000;
-  font-weight: bold;
+  font-size: 12px;
 }
 
 .pager li a {
