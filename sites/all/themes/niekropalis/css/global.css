@@ -123,8 +123,8 @@ h1.site-name a {
 .page-katalog .views-exposed-form,
 .page-poshuk .view-alphabet-view-cirill,
 .page-poshuk .views-exposed-form,
-.page-poshuk .node-card 
-.page-node #region-content .region-inner #comments{
+.page-poshuk .node-card, 
+#comments{
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
