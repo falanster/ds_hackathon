@@ -367,8 +367,8 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
     color: #685232;
 }
 
-.view-spis-pahavanyh {
-  width: 600px;
+.view-spis-pahavanyh .view-content {
+  width: 500px;
   margin: 10px auto;
 }
 
