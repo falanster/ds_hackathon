@@ -398,6 +398,12 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 
 /* @end Graves page */
 
-.pager {
-  
+.pager li.pager-current {
+  color: #000000;
+  font-weight: bold;
+}
+
+.pager li a {
+  color: #685232;
+  text-decoration: none;
 }
