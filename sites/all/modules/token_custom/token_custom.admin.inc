@@ -23,14 +23,8 @@ function token_custom_type_list_page() {
       $type->description,
     );
 
-    // Do not show edit/delete links for the custom type.
-    if ($type->machine_name != TOKEN_CUSTOM_DEFAULT_TYPE) {
-      $path_base = 'admin/structure/token-custom/type/' . $type->machine_name . '/';
-      $row[] = l(t('Edit'), $path_base . 'edit') . ' / ' . l(t('Delete'), $path_base . 'delete');
-    }
-    else {
-      $row[] = '';
-    }
+    $path_base = 'admin/structure/token-custom/type/' . $type->machine_name . '/';
+    $row[] = l(t('Edit'), $path_base . 'edit') . ' / ' . l(t('Delete'), $path_base . 'delete');
 
     $variables['rows'][] = $row;
   }
@@ -467,11 +461,12 @@ function token_custom_type_delete_confirm_form($form, &$form_state, $token_type)
 function token_custom_type_delete_confirm_form_submit($form, &$form_state) {
 
   if (token_custom_type_delete($form_state['token_custom']['token_type']->machine_name)) {
+    $token_info = token_info();
     drupal_set_message(
       t('Token type <em>@machine_name</em> deleted. All tokens using it were moved to type <em>@default_type</em>.',
         array(
           '@machine_name' => $form_state['token_custom']['token_type']->machine_name,
-          '@default_type' => TOKEN_CUSTOM_DEFAULT_TYPE,
+          '@default_type' => $token_info['types'][TOKEN_CUSTOM_FALLBACK_TYPE]['name'],
         )
       )
     );

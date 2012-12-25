@@ -9,9 +9,9 @@
 
 
 /*
- * The default token type machine name.
+ * Fallback token type for custom token's whose type has been deleted.
  */
-define('TOKEN_CUSTOM_DEFAULT_TYPE', 'custom');
+define('TOKEN_CUSTOM_FALLBACK_TYPE', 'site');
 
 
 /**
@@ -199,7 +199,7 @@ function token_custom_tokens($type, $tokens, array $data = array(), array $optio
  *   TRUE if user has permission AND type is not the default fixed one.
  */
 function token_custom_type_forms_access($type) {
-  return user_access('administer custom tokens') && $type->machine_name != TOKEN_CUSTOM_DEFAULT_TYPE;
+  return user_access('administer custom tokens');
 }
 
 
@@ -218,19 +218,7 @@ function token_custom_type_forms_access($type) {
  *   The custom token types.
  */
 function token_custom_type_load_multiple() {
-  $default_type = new stdClass();
-  $default_type->name = t('Custom');
-  $default_type->machine_name = TOKEN_CUSTOM_DEFAULT_TYPE;
-  $default_type->description = t('User created tokens types using the Custom Tokens module.');
-
-  // Load token types and make sure the custom type is always there,
-  // and wasn't deleted somewhere.
-  $types = variable_get('token_custom_types', array());
-  if (!isset($types[TOKEN_CUSTOM_DEFAULT_TYPE])) {
-    $types[TOKEN_CUSTOM_DEFAULT_TYPE] = $default_type;
-  }
-
-  return $types;
+  return variable_get('token_custom_types', array());
 }
 
 
@@ -260,10 +248,6 @@ function token_custom_type_save($type) {
     $type = (object) $type;
   }
 
-  if ($type->machine_name == TOKEN_CUSTOM_DEFAULT_TYPE) {
-    return FALSE;
-  }
-
   $types = token_custom_type_load_multiple();
   $types[$type->machine_name] = $type;
   variable_set('token_custom_types', $types);
@@ -289,16 +273,11 @@ function token_custom_type_delete($delete_type) {
     return FALSE;
   }
 
-  // Do not allow deleting the default custom type.
-  if ($delete_type == TOKEN_CUSTOM_DEFAULT_TYPE) {
-    return FALSE;
-  }
-
-  // Make sure all tokens with the deleted type are given the custom type.
+  // Make sure all tokens with the deleted type are given the fallback token type.
   $tokens = token_custom_load_multiple();
   foreach ($tokens as $token) {
     if ($token->type == $delete_type) {
-      $token->type = TOKEN_CUSTOM_DEFAULT_TYPE;
+      $token->type = TOKEN_CUSTOM_FALLBACK_TYPE;
       $token->is_new = FALSE;
       token_custom_save($token);
     }
