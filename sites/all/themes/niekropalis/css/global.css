@@ -337,8 +337,8 @@ ul.horizontal-tabs-list a {
     text-transform: uppercase;
 }
 
-ul.horizontal-tabs-list a:hover
-ul.horizontal-tabs-list a.active {
+.horizontal-tabs ul li a:hover
+.horizontal-tabs ul li a.active {
   text-decoration: underline;
 }
 
@@ -369,3 +369,7 @@ ul.horizontal-tabs-list a.active {
 }
 
 /* @end Graves page */
+
+.pager {
+  
+}
