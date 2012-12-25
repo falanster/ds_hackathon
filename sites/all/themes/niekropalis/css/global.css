@@ -6,6 +6,11 @@ body {
   background: #aba493;
 }
 
+#region-content a:link, #region-content a:visited {
+    color: #685232;
+
+}
+
 /* Front page */
 
 #zone-branding {
@@ -288,3 +293,41 @@ input[type="text"] {
 }
 
 /* @end Articles page */
+
+/* Graves page */
+
+/*#FAF2D9 - светлый
+  ##F3ECD8 - для табов
+  #685232  - темный
+*/
+.horizontal-tabs ul.horizontal-tabs-list {
+    background-color: #F3ECD8;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li {
+    background-color: #F3ECD8;
+}
+
+ul.horizontal-tabs-list a {
+    color: #685232;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.horizontal-tabs ul.horizontal-tabs-list li.selected {
+    background-color: #F3ECD8;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list li a:hover {
+    background-color: #F3ECD8;
+    text-decoration: underline;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list .selected strong {
+    color: #685232;
+    text-decoration: underline;
+}
+
+
+/* @end Graves page */
