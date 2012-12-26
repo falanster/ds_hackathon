@@ -142,10 +142,9 @@ h1.site-name a {
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill table,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill table {
-  margin: 10px 0 -10px 0;
+  margin: 10px;
   background-color: #fff;
   width: 150px;
-  padding: 0 10px;
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
@@ -176,7 +175,12 @@ h1.site-name a {
 .field .field-label {
   font-weight: bold;
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
+}
+
+.field .field-items {
+  float: left;
+  margin-right: 5px;
 }
 
 .page-asoby .view-asoby .views-row .views-field-field-photo img {
