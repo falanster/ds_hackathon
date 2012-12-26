@@ -366,6 +366,11 @@ input[type="text"] {
   padding-right: 10px;
 }
 
+.field-name-field-phota-vip {
+  width: 480px;
+  margin: 10px auto;
+}
+
 /* @end Articles page */
 
 /* Graves page */
@@ -488,3 +493,8 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 }
 
 /* @end Taxonomy page */
+
+.field a:link,
+.field a:visited {
+  color: #685232;
+}
