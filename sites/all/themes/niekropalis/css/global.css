@@ -168,7 +168,8 @@ h1.site-name a {
 
 .page-naviny .view-news .views-row .field-name-field-photo img,
 .page-asoby .view-asoby .views-row .views-field-field-photo img,
-.page-poshuk .view-content .node-card  .field-name-field-photo img {
+.page-poshuk .view-content .node-card  .field-name-field-photo img,
+.page-node .node-card .field-name-field-photo img {
   float: left;
   margin-right: 20px;
 }
