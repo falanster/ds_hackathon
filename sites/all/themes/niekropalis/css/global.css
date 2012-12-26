@@ -108,6 +108,7 @@ h1.site-name a {
 }
 
 .page-node #region-content .region-inner,
+.page-taxonomy #region-content .region-inner,
 .node-type-webform #region-content .region-inner,
 .page-artykuly .view-articles .views-row,
 .page-naviny .view-news .views-row,
