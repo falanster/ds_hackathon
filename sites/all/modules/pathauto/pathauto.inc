@@ -541,6 +541,8 @@ function _pathauto_set_alias(array $path, $existing_alias = NULL, $op = NULL) {
       }
     }
 
+    $path['language'] = LANGUAGE_NONE;
+
     // Save the path array.
     path_save($path);
 
