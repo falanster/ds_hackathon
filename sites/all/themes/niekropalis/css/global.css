@@ -6,6 +6,10 @@ body {
   background: #dbd3bf;
 }
 
+a:link {
+  color: #000;
+}
+
 /* Front page */
 
 #zone-branding {
