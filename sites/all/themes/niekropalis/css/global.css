@@ -173,7 +173,7 @@ h1.site-name a {
   margin-right: 20px;
 }
 
-#node_card_teaser_group_years legend {
+.field .field-label {
   font-weight: bold;
   float: left;
   margin-right: 10px;
