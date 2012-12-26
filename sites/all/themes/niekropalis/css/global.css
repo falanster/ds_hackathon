@@ -440,7 +440,7 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
     color: #685232;
 }
 
-.view-spis-pahavanyh .view-content {
+.view-spis-pahavanyh .view-content table {
   width: 600px;
   margin: 20px auto;
 }
@@ -454,6 +454,7 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 }
 
 .view-spis-pahavanyh .views-field-title a,
+.view-spis-pahavanyh .views-field-title a:link,
 .view-spis-pahavanyh .views-field-field-born-year span,
 .view-spis-pahavanyh .views-field-field-die-year span {
   color: #000000;
