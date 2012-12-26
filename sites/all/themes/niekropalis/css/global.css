@@ -107,7 +107,8 @@ h1.site-name a {
   margin-bottom: -20px;
 }
 
-/*.page-node #region-content .region-inner, */
+.page-node #region-content .region-inner,
+.node-type-webform #region-content .region-inner,
 .page-artykuly .view-articles .views-row,
 .page-naviny .view-news .views-row,
 .page-asoby .view-asoby .views-row,
@@ -250,7 +251,7 @@ input[type="text"] {
 
 .breadcrumb {
   background: url(../images/breadcrumb_line.png) no-repeat;
-  width: 100%;
+  width: 75%;
   margin-left: 26%;
   margin-bottom: 10px;
 }
