@@ -292,11 +292,12 @@ h2.block-title a:hover {
   width: 425px;
 }
 
-input[type="text"] {
+.form-item-custom-search-blocks-form-1 input[type="text"] {
   color: #685232;
   font-size: 13px;
   text-transform: uppercase;
   width: 180px;
+  margin-left: 12px;
 }
 
 .breadcrumb {
