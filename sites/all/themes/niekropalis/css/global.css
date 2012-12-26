@@ -165,17 +165,21 @@ article {
   padding:8px 16px;
 } */
 
-h2.node-title a {
-  color:#000;
-  text-decoration:none;
-  font-size: 22px;
-  
-}
-
 h2.node-title {
   line-height: 32px;
   margin-bottom: 0;
   text-align: center;
+}
+
+h2.node-title a {
+  color:#000;
+  text-decoration:none;
+  font-size: 22px; 
+}
+
+h2.node-title a:hover {
+  color: #685232;
+  text-decoration: underline;
 }
 
 aside .block {
