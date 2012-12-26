@@ -300,7 +300,8 @@ h2.block-title a:hover {
   margin-left: 12px;
 }
 
-select {
+select,
+input[type="text"] {
   width: 180px;
 }
 
