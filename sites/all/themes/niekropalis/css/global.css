@@ -377,6 +377,11 @@ input[type="text"] {
   margin: 10px auto;
 }
 
+.node-articles .field-name-field-author .field-item,
+.node-articles .field-name-field-date .field-item {
+  float: right;
+}
+
 /* @end Articles page */
 
 /* Graves page */
