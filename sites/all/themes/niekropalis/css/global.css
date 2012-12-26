@@ -132,14 +132,10 @@ h1.site-name a {
   border:1px solid #5c421c;
   padding:8px 16px;
 }
-
-#block-views-2d465134e0ae11ee076fc156e5b18f08,
-#block-views-alphabet-view-cirill-block-1 {
  
-} 
   
-#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
-#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill { 
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1 { 
   width: 300px;
   float: left;
   margin-right: 10px;
