@@ -136,7 +136,7 @@ h1.site-name a {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
-  padding:8px 16px;
+  padding: 8px 16px;
 }
 
   
@@ -145,11 +145,12 @@ h1.site-name a {
   width: 170px;
   float: left;
   margin: 20px 30px 20px 80px;
+  padding: 10px;
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill table,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill table {
-  margin: 10px;
+  margin-bottom: 0px;
   background-color: #fff;
   width: 150px;
 }
@@ -488,7 +489,7 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 
 .pager li.pager-current {
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .pager li a {
