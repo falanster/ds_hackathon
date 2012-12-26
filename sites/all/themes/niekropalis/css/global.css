@@ -514,5 +514,5 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   background: #faf2d9;
   color: #685232;
   border: 1px #685232 solid;
-  border-radius: none;
+  border-radius: 0;
 }
