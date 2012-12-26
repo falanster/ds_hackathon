@@ -135,15 +135,17 @@ h1.site-name a {
   
 #block-views-2d465134e0ae11ee076fc156e5b18f08,
 #block-views-alphabet-view-cirill-block-1 { 
-  width: 300px;
+  width: 170px;
   float: left;
-  margin: 10px;
+  margin: 10px 30px;
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill {
-  margin-bottom: 0px;
+  margin: 10px 0 -10px 0;
   background-color: #fff;
+  width: 150px;
+  padding: 0 10px;
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
