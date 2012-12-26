@@ -177,9 +177,10 @@ h1.site-name a {
   font-weight: bold;
   float: left;
   margin-right: 10px;
+  width: 100px;
 }
 
-#node_card_teaser_group_years .date-display-single{
+#node_card_teaser_group_years .field-item {
   width: 100px;
 }
 
