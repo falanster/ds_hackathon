@@ -147,23 +147,22 @@ h1.site-name a {
   width: 150px;
   padding: 0 10px;
 }
-
+/*
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name {
   padding: 5px;
-}
+} */
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name a,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name a {
   color: #000;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name a:hover,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name a:hover {
   text-decoration: underline;
-  color: ##685232;
+  color: #685232;
 }
 
 .page-naviny .view-news .views-row .field-name-field-photo img,
