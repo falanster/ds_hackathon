@@ -135,9 +135,12 @@ h1.site-name a {
 #block-views-alphabet-view-cirill-block-1,
 #block-views-2d465134e0ae11ee076fc156e5b18f08 {
   width: 300px;
-  float: left;
 }
 
+#block-views-2d465134e0ae11ee076fc156e5b18f08 {
+  float: left;
+  margin-right: 50px;
+}
 
 .page-naviny .view-news .views-row .field-name-field-photo img,
 .page-asoby .view-asoby .views-row .views-field-field-photo img {
