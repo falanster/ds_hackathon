@@ -173,6 +173,12 @@ h1.site-name a {
   margin-right: 20px;
 }
 
+#node_card_teaser_group_years .fieldset-legend {
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
 .page-asoby .view-asoby .views-row .views-field-field-photo img {
   border: black 1px solid;
 }
