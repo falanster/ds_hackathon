@@ -179,6 +179,10 @@ h1.site-name a {
   margin-right: 10px;
 }
 
+#node_card_teaser_group_years .date-display-single{
+  width: 100px;
+}
+
 .page-asoby .view-asoby .views-row .views-field-field-photo img {
   border: black 1px solid;
 }
