@@ -477,7 +477,14 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   text-decoration: underline;
 }
 
+/* Taxonomy page */
+.page-taxonomy #region-content .region-inner article .content {
+  margin-bottom: -20px;
+}
+
 .page-taxonomy #region-content .region-inner article .node-readmore,
 .page-taxonomy #region-content .region-inner article .comment-add {
   display: none;
 }
+
+/* @end Taxonomy page */
