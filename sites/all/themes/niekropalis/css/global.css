@@ -510,9 +510,24 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   color: #685232;
 }
 
+/* Send button */
+
 .form-actions input {
   background: #faf2d9;
   color: #685232;
   border: 1px #685232 solid;
   border-radius: 0;
 }
+
+button:focus, 
+button:active, 
+input:focus, 
+input:active, 
+select:focus, 
+select:active, 
+textarea:focus, 
+textarea:active {
+  box-shadow: #685232 0px 0px 7px;
+}
+
+/* @end Send button */
