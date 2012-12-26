@@ -136,6 +136,10 @@ h1.site-name a {
 #block-views-2d465134e0ae11ee076fc156e5b18f08,
 #block-views-alphabet-view-cirill-block-1 {
   width: 300px;
+} 
+  
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill { 
   float: left;
   margin-right: 50px;
 }
