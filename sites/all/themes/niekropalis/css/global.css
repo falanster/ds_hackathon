@@ -121,8 +121,8 @@ h1.site-name a {
 }
 
 .page-katalog .view-catalog- .views-row,
-#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
-#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill,
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1,
 #views-exposed-form-poshuk-page-1,
 .page-poshuk .node-card, 
 #comments{
@@ -137,7 +137,7 @@ h1.site-name a {
 #block-views-alphabet-view-cirill-block-1 { 
   width: 300px;
   float: left;
-  margin-right: 10px;
+  margin: 10px;
 }
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
