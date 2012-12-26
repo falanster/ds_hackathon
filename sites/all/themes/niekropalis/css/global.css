@@ -107,7 +107,9 @@ h1.site-name a {
   margin-bottom: -20px;
 }
 
-/*.page-node #region-content .region-inner, */
+.page-node #region-content .region-inner,
+.page-taxonomy #region-content .region-inner article,
+.node-type-webform #region-content .region-inner,
 .page-artykuly .view-articles .views-row,
 .page-naviny .view-news .views-row,
 .page-asoby .view-asoby .views-row,
@@ -120,9 +122,9 @@ h1.site-name a {
 }
 
 .page-katalog .view-catalog- .views-row,
-.page-katalog .views-exposed-form,
-.page-poshuk .view-alphabet-view-cirill,
-.page-poshuk .views-exposed-form,
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1,
+#views-exposed-form-poshuk-page-1,
 .page-poshuk .node-card, 
 #comments{
   background:#faf2d9;
@@ -131,10 +133,55 @@ h1.site-name a {
   padding:8px 16px;
 }
 
+  
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1 { 
+  width: 170px;
+  float: left;
+  margin: 20px 30px 20px 80px;
+}
+
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill table,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill table {
+  margin: 10px;
+  background-color: #fff;
+  width: 150px;
+}
+
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name {
+  padding: 5px;
+} 
+
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name a,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name a {
+  color: #000;
+  text-decoration: none; 
+}
+
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name a:hover,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name a:hover {
+  text-decoration: underline;
+  color: #685232;
+}
+
 .page-naviny .view-news .views-row .field-name-field-photo img,
-.page-asoby .view-asoby .views-row .views-field-field-photo img {
+.page-asoby .view-asoby .views-row .views-field-field-photo img,
+.page-poshuk .view-content .node-card  .field-name-field-photo img,
+.page-node .node-card .field-name-field-photo img {
   float: left;
   margin-right: 20px;
+}
+
+.field .field-label {
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.field-name-field-name-original .field-item {
+  float: left;
+  margin-right: 5px;
 }
 
 .page-asoby .view-asoby .views-row .views-field-field-photo img {
@@ -164,17 +211,21 @@ article {
   padding:8px 16px;
 } */
 
-h2.node-title a {
-  color:#000;
-  text-decoration:none;
-  font-size: 22px;
-  
-}
-
 h2.node-title {
   line-height: 32px;
   margin-bottom: 0;
   text-align: center;
+}
+
+h2.node-title a {
+  color:#000;
+  text-decoration:none;
+  font-size: 22px; 
+}
+
+h2.node-title a:hover {
+  color: #685232;
+  text-decoration: underline;
 }
 
 aside .block {
@@ -241,25 +292,31 @@ h2.block-title a:hover {
   width: 425px;
 }
 
-input[type="text"] {
+.form-item-custom-search-blocks-form-1 input[type="text"] {
   color: #685232;
   font-size: 13px;
   text-transform: uppercase;
+  width: 180px;
+  margin-left: 12px;
+}
+
+input[type="text"] {
   width: 180px;
 }
 
 .breadcrumb {
   background: url(../images/breadcrumb_line.png) no-repeat;
-  width: 100%;
+  width: 75%;
   margin-left: 26%;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 .breadcrumb a,
 .breadcrumb a:hover,
 .breadcrumb a.active {
   color: #000000;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Times New Roman", Times, serif; 
   text-decoration: none;
 }
@@ -312,6 +369,11 @@ input[type="text"] {
 .view-articles .views-field-field-date span {
   float: left;
   padding-right: 10px;
+}
+
+.field-name-field-phota-vip {
+  width: 480px;
+  margin: 10px auto;
 }
 
 /* @end Articles page */
@@ -395,7 +457,10 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
   text-align: center;
 }
 
-.field-name-field-scheme img,
+.field-name-field-scheme img {
+  margin: 20px;
+}
+
 .field-name-field-position .openlayers-container {
   width: 600px;
   margin: 20px auto;
@@ -416,4 +481,25 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 .pager li a {
   color: #685232;
   text-decoration: none;
+}
+
+.pager li a:hover {
+  text-decoration: underline;
+}
+
+/* Taxonomy page */
+.page-taxonomy #region-content .region-inner article .content {
+  margin-bottom: -20px;
+}
+
+.page-taxonomy #region-content .region-inner article .node-readmore,
+.page-taxonomy #region-content .region-inner article .comment-add {
+  display: none;
+}
+
+/* @end Taxonomy page */
+
+.field a:link,
+.field a:visited {
+  color: #685232;
 }
