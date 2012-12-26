@@ -122,8 +122,8 @@ h1.site-name a {
 
 .page-katalog .view-catalog- .views-row,
 .page-katalog .views-exposed-form,
-.page-poshuk .view-alphabet-view-cirill,
-.page-poshuk .views-exposed-form,
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1,
 .page-poshuk .node-card, 
 #comments{
   background:#faf2d9;
@@ -132,8 +132,8 @@ h1.site-name a {
   padding:8px 16px;
 }
 
-#block-views-alphabet-view-cirill-block-1,
-#block-views-2d465134e0ae11ee076fc156e5b18f08 {
+#block-views-2d465134e0ae11ee076fc156e5b18f08,
+#block-views-alphabet-view-cirill-block-1 {
   width: 300px;
 }
 
