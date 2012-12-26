@@ -178,7 +178,7 @@ h1.site-name a {
   float: left;
 }
 
-#node_card_teaser_group_years .fieldset-legend {
+#node_card_teaser_group_years legend {
   font-weight: bold;
   float: left;
   margin-right: 10px;
