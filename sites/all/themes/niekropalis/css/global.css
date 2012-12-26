@@ -258,13 +258,14 @@ input[type="text"] {
   width: 75%;
   margin-left: 26%;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 .breadcrumb a,
 .breadcrumb a:hover,
 .breadcrumb a.active {
   color: #000000;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Times New Roman", Times, serif; 
   text-decoration: none;
 }
