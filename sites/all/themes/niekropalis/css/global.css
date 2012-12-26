@@ -124,7 +124,7 @@ h1.site-name a {
 .page-katalog .views-exposed-form,
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill,
-
+.page-poshuk .views-exposed-form,
 .page-poshuk .node-card, 
 #comments{
   background:#faf2d9;
@@ -132,7 +132,10 @@ h1.site-name a {
   border:1px solid #5c421c;
   padding:8px 16px;
 }
- 
+
+.page-poshuk .views-exposed-form {
+  height: 100px;
+} 
   
 #block-views-2d465134e0ae11ee076fc156e5b18f08,
 #block-views-alphabet-view-cirill-block-1 { 
