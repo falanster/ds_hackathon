@@ -476,3 +476,8 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 .pager li a:hover {
   text-decoration: underline;
 }
+
+.page-taxonomy #region-content .region-inner article .node-readmore,
+.page-taxonomy #region-content .region-inner article .comment-add {
+  display: none;
+}
