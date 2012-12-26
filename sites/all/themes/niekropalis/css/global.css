@@ -519,7 +519,7 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 /* Send button */
 
 .form-actions input,
-.form-submit {
+.views-exposed-form .views-exposed-widget .form-submit {
   background: #faf2d9;
   color: #685232;
   border: 1px #685232 solid;
