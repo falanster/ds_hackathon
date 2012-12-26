@@ -300,6 +300,10 @@ h2.block-title a:hover {
   margin-left: 12px;
 }
 
+input[type="text"] {
+  width: 180px;
+}
+
 .breadcrumb {
   background: url(../images/breadcrumb_line.png) no-repeat;
   width: 75%;
