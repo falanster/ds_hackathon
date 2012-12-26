@@ -140,18 +140,18 @@ h1.site-name a {
   margin: 20px 30px 20px 80px;
 }
 
-#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill,
-#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill {
+#block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill table,
+#block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill table {
   margin: 10px 0 -10px 0;
   background-color: #fff;
   width: 150px;
   padding: 0 10px;
 }
-/*
+
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name {
   padding: 5px;
-} */
+} 
 
 #block-views-2d465134e0ae11ee076fc156e5b18f08 .view-alphabet-view-cirill .views-field-name a,
 #block-views-alphabet-view-cirill-block-1 .view-alphabet-view-cirill .views-field-name a {
