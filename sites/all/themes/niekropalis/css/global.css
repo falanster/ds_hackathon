@@ -379,7 +379,7 @@ input[type="text"] {
 
 .node-articles .field-name-field-author .field-item,
 .node-articles .field-name-field-date .field-item {
-  float: right;
+  text-align: right;
 }
 
 /* @end Articles page */
@@ -508,4 +508,11 @@ ul.horizontal-tabs-list a #active-horizontal-tab {
 .field a:link,
 .field a:visited {
   color: #685232;
+}
+
+.form-actions input {
+  background: #faf2d9;
+  color: #685232;
+  border: 1px #685232 solid;
+  border-radius: none;
 }
