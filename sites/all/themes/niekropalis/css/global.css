@@ -21,7 +21,8 @@ a:link {
 }
 
 h1#page-title,
-#comments h2 {
+#comments h2,
+#search-form h2 {
   font-size: 23px;
 }
 
@@ -128,7 +129,8 @@ h1.site-name a {
 .page-taxonomy #region-content .region-inner article,
 #block-block-5 .content,
 .page-user #region-content .region-inner,
-.page-poshuk h1#page-title {
+.page-poshuk h1#page-title,
+.page-search #region-content .region-inner {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
