@@ -151,6 +151,10 @@ h1.site-name a {
   padding: 8px 16px;
 }
 
+.page-search li {
+  padding: 0 16px;
+}
+
 #block-block-5 .content,
 .page-poshuk h1#page-title {
   margin-bottom: 10px;
