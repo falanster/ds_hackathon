@@ -22,7 +22,7 @@ a:link {
 
 h1#page-title,
 #comments h2,
-#search-form h2 {
+.page-search h2 {
   font-size: 23px;
 }
 
@@ -151,7 +151,7 @@ h1.site-name a {
   padding: 8px 16px;
 }
 
-.page-search li {
+.page-search ul {
   padding: 0 16px;
 }
 
