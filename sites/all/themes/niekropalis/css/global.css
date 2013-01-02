@@ -37,6 +37,7 @@ h3.title a {
 
 h3.title a:hover { 
   text-decoration: underline;
+  color: #685232;
 }
 
 
