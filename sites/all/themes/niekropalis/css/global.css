@@ -20,7 +20,8 @@ a:link {
   -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5); /* Для Chrome и Safari*/
 }
 
-h1#page-title {
+h1#page-title,
+#comments h2 {
   font-size: 23px;
 }
 
@@ -124,13 +125,42 @@ h1.site-name a {
 .page-poshuk .node-card, 
 #comments,
 #views-exposed-form-catalog--catalog-cards,
-.page-taxonomy #region-content .region-inner article {
+.page-taxonomy #region-content .region-inner article,
+#block-block-5 .content,
+.page-user #region-content .region-inner,
+.page-poshuk h1#page-title {
   background:#faf2d9;
   margin-bottom:24px;
   border:1px solid #5c421c;
   padding: 8px 16px;
 }
 
+#block-block-5 .content {
+  margin-bottom: 10px;
+}
+
+#block-block-5 .content p {
+  margin-bottom: 0;
+}
+
+
+/* For webkit brousers */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .page-taxonomy #region-content .region-inner article {
+  background:#faf2d9;
+  margin-bottom:24px;
+  border:1px solid #5c421c;
+  padding: 8px 16px 30px 16px;
+ }
+ 
+ .page-taxonomy .field-name-field-photo img {
+  float: left;
+  margin-right: 20px;
+}
+} 
+
+/* @end For webkit brousers */
   
 #block-views-2d465134e0ae11ee076fc156e5b18f08,
 #block-views-alphabet-view-cirill-block-1 { 
@@ -171,7 +201,9 @@ h1.site-name a {
 .page-naviny .view-news .views-row .field-name-field-photo img,
 .page-asoby .view-asoby .views-row .views-field-field-photo img,
 .page-poshuk .view-content .node-card  .field-name-field-photo img,
-.page-node .node-card .field-name-field-photo img {
+.page-node .node-card .field-name-field-photo img,
+.views-field-field-phota-vip img,
+.page-taxonomy .field-name-field-photo img {
   float: left;
   margin-right: 20px;
 }
@@ -293,7 +325,8 @@ h2.block-title a:hover {
 }
 
 select,
-input[type="text"] {
+input[type="text"],
+input[type="password"] {
   width: 180px;
 }
 
