@@ -26,6 +26,20 @@ h1#page-title,
   font-size: 23px;
 }
 
+h3.title {
+  margin-bottom: 10px;
+}
+
+h3.title a { 
+  text-decoration: none;
+  color: #000;
+}
+
+h3.title a:hover { 
+  text-decoration: underline;
+}
+
+
 #region-menu {
   width:960px!important;
   margin:0;
