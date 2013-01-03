@@ -1,0 +1,3 @@
+[02-Jan-2013 10:04:06 UTC] PHP Fatal error:  Call to a member function get_human_name() on a non-object in /home/niekropa/public_html/sites/all/modules/views/views_ui.module on line 271
+[02-Jan-2013 11:23:02 UTC] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/niekropa/public_html/sites/all/modules/views/includes/admin.inc on line 4398
+[02-Jan-2013 11:23:06 UTC] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/niekropa/public_html/sites/all/modules/views/includes/admin.inc on line 4398
